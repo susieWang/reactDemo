@@ -1,8 +1,8 @@
-var React = require('react');
+import React,{Component} from 'react';
 // import './app/index.less';
 
-module.exports = React.createClass({
-	render:function(){
-		return (<div>Hello World react & webpack !</div>);
+export default class productBox extends Component{
+	render(){
+		return (<div>Hello World react & webpack test!</div>);
 	}
-});
+}

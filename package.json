@@ -4,10 +4,12 @@
   "description": "",
   "dependencies": {
     "dom-serializer": "^0.1.0",
+    "history": "^4.7.2",
     "node-forge": "^0.7.1",
     "querystringify": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router": "^2.8.1",
     "renderkid": "^2.0.1"
   },
   "devDependencies": {
