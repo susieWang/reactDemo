@@ -4,7 +4,7 @@
   "description": "",
   "dependencies": {
     "dom-serializer": "^0.1.0",
-    "history": "^4.7.2",
+    "history": "^2.1.2",
     "node-forge": "^0.7.1",
     "querystringify": "^1.0.0",
     "react": "^15.6.1",
@@ -42,7 +42,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack-dev-server --port 20000 --devtool eval --progress --colors"
+    "dev": "webpack-dev-server --port 20000 --devtool eval --progress --colors --history-api-fallback"
   },
   "author": "susie",
   "license": "ISC"
