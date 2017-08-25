@@ -1,6 +1,8 @@
 "use strict";
 import React,{Component} from 'react';
 import { Link } from 'react-router';
+import '../styles/common.less';
+
 
 export default class App extends Component{
 	render(){
